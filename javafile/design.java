@@ -1,3 +1,4 @@
+package javafile;
 public class OnlineShoppingUser {
   private String userId;
   private String password;
@@ -9,7 +10,7 @@ public class OnlineShoppingUser {
   public String getUserId() {
       return userId;
   }
-
+  
   public void setUserId(String userId) {
       this.userId = userId;
   }
