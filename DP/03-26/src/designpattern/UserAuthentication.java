@@ -42,6 +42,8 @@ public class UserAuthentication {
 
             if (isAppAuthenticated) {
                 System.out.println("AppUser 인증 성공");
+                Protocol protocol = new Protocol();
+                protocol.run();
             } else {
                 System.out.println("AppUser 인증 실패");
             }
@@ -51,4 +53,10 @@ public class UserAuthentication {
 
         scanner.close();
     }
+}
+
+class Protocol{
+	public void run() {
+		System.out.println("로그인 완료 프로토콜 실행");
+	}
 }
