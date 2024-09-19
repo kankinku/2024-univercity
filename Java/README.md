@@ -8,7 +8,7 @@
    ```
    import java.util.Scanner;
 
-public class SimpleIfDemo {
+	public class SimpleIfDemo {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -20,9 +20,7 @@ public class SimpleIfDemo {
 		if(number % 2 == 1)
 			System.out.println("홀수!");
 		System.out.println("종료");
+		}
 	}
-
-}
-
    ```
 3. 
