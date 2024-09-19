@@ -5,6 +5,7 @@
    a. 조건문, 반복문, 분기문
 
    -> 조건문 : if | 반복문 : for, while | 분기문
+   * 조건문에서 == 은 사용하지 않는다. -> equals를 사용한다.
    ```
    import java.util.Scanner;
 
